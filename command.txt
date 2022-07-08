@@ -1,0 +1,3 @@
+type in terminal to get token
+
+require("crypto").randomBytes(35).toString("hex")
