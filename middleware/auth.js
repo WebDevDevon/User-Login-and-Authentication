@@ -1,6 +1,5 @@
 const jwt = require("jsonwebtoken")
-const jwtSecret =
-'aad217c67f848566d6fd731c130ec710dd02a8b3ff9ac79277a8ef8bc6bd16499a1264'
+const jwtSecret = //Insert jsonwebtoken here
 exports.adminAuth = (req, res, next) => {
   const token = req.cookies.jwt
   if (token) {

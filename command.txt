@@ -1,3 +1,5 @@
-type in terminal to get token
+1.type in terminal to get token.
 
 require("crypto").randomBytes(35).toString("hex")
+
+2. insert token in middleware/auth.js line 2 for JwtSecret, or in the env file.
